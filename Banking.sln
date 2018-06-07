@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.17
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndPoint", "..\EndPoint\EndPoint.csproj", "{A9AEC2B1-2C01-4C1C-9B03-6EEDC43D45B3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking.Entities", "Banking.Entities\Banking.Entities.csproj", "{C8F683D2-F1FB-4939-A573-A5CC233FE00B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking.API", "Banking.API\Banking.API.csproj", "{A9AEC2B1-2C01-4C1C-9B03-6EEDC43D45B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A9AEC2B1-2C01-4C1C-9B03-6EEDC43D45B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A9AEC2B1-2C01-4C1C-9B03-6EEDC43D45B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A9AEC2B1-2C01-4C1C-9B03-6EEDC43D45B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A9AEC2B1-2C01-4C1C-9B03-6EEDC43D45B3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C8F683D2-F1FB-4939-A573-A5CC233FE00B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C8F683D2-F1FB-4939-A573-A5CC233FE00B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8F683D2-F1FB-4939-A573-A5CC233FE00B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8F683D2-F1FB-4939-A573-A5CC233FE00B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9AEC2B1-2C01-4C1C-9B03-6EEDC43D45B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9AEC2B1-2C01-4C1C-9B03-6EEDC43D45B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9AEC2B1-2C01-4C1C-9B03-6EEDC43D45B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9AEC2B1-2C01-4C1C-9B03-6EEDC43D45B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

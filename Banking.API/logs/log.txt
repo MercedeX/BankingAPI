@@ -1,0 +1,5 @@
+2018-06-07 04:12:30.6055|INFO|Foo|Hello World
+2018-06-07 04:13:32.0401|INFO|Foo|Hello World
+2018-06-07 04:13:43.3966|INFO|EndPoint.Controllers.BankController|$100 has been moved from 21 to 22 successfully
+2018-06-07 04:35:41.5829|INFO|EndPoint.Controllers.BankController|credit has been made into Bernard A: 22
+2018-06-07 04:36:06.0503|INFO|EndPoint.Controllers.BankController|debit has been made into Robert Ford: 21
