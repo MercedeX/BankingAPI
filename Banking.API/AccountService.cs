@@ -179,7 +179,10 @@ namespace EndPoint
             Raise.ArgumentException.IfNot(AccountExists(accountId), "", "Account does not exist");
 
             var account = _context.Accounts.FirstOrDefault(x => x.AccountNo == accountId);
-            ret = account.TransactionsSource.Concat(account.TransactionsTarget)
+
+            var deposits = account.TransactionsTarget.Where(x => DateTime.Compare(startDate, x.PostedOn) <= 0 && DateTime.Compare(x.PostedOn, endDate) <= 0);
+            var withdrawals = account.TransactionsSource.Where(x => DateTime.Compare(startDate, x.PostedOn) <= 0 && DateTime.Compare(x.PostedOn, endDate) <= 0);
+            ret = deposits.Concat(withdrawals)
             .Select(x => new Model.Transaction
             {
                 From = x.AccountSource?.AccountNo,
