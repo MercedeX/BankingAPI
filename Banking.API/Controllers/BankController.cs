@@ -68,7 +68,7 @@ namespace EndPoint.Controllers
             }
             catch (Exception ex)
             {
-                Error(ex);
+                ret = Error(ex);
             }
 
             return ret;
@@ -87,7 +87,7 @@ namespace EndPoint.Controllers
             }
             catch (Exception ex)
             {
-                Error(ex);
+                ret = Error(ex);
             }
 
             return ret;
@@ -106,7 +106,7 @@ namespace EndPoint.Controllers
             }
             catch (Exception ex)
             {
-                Error(ex);
+                ret = Error(ex);
             }
 
             return ret;
@@ -126,7 +126,7 @@ namespace EndPoint.Controllers
             }
             catch (Exception ex)
             {
-                Error(ex);
+                ret = Error(ex);
             }
 
             return ret;
@@ -144,7 +144,7 @@ namespace EndPoint.Controllers
             }
             catch (Exception ex)
             {
-                Error(ex);
+                ret = Error(ex);
             }
 
             return ret;
